@@ -1,7 +1,8 @@
-# Zadanie rekrutacyjne
+# TODO react-redux app
 
-**Cel:**
-Stworzenie prostego interfejsu użytkownika do zarządzania listą zadań (to-do) z wykorzystaniem React, SCSS, Redux oraz kreatywnego myślenia w kontekście UX/UI.
+Todo List App with Redux and React with Awesome animation using Framer motion.
+
+Also hosted on Vercel: 
 
 ## Specyfikacja:
 1. **Stworzenie nowego projektu z wykorzystaniem Create React App.**
