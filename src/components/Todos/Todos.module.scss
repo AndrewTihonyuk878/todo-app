@@ -1,0 +1,48 @@
+.addTodos {
+    display: flex;
+    justify-content: center;
+}
+
+.todoInput {
+    width: 50%;
+
+    min-height: 2.5rem;
+    background-color: #e1ebfd;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+
+    align-self: center;
+    &:focus {
+        outline: none;
+        border: 2px solid #433aa8;
+    }
+    @media only screen and (max-width: 576px) {
+        width: 70%;
+    }
+}
+
+.addBtn {
+    margin-left: 1rem;
+    background-color: #271c6c;
+    color: #e1ebfd;
+    border-radius: 50%;
+    border: 2px solid #e1ebfd;
+    font-size: 1.5rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    cursor: pointer;
+    box-shadow: 2px 4px 10px #271c6c;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:focus {
+        outline: none;
+    }
+    @media only screen and (max-width: 576px) {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-left: .4rem;
+    }
+}
