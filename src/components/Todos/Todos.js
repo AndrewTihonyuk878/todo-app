@@ -44,7 +44,7 @@ const Todos = (props) => {
         setTodo('')
     }
 
-    // console.log('props from store', props)
+    console.log('props from store', props)
 
   return (
     <div className={styles.addTodos}>
